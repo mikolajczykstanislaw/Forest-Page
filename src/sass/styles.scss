@@ -112,7 +112,7 @@ section {
 		height: 57rem;
 		background-size: cover;
 		background-position: center;
-		background-image: url(/dist/img/jungle-big.jpg);
+		background-image: url('dist/img/jungle-big.jpg');
 		z-index: 0;
 
 		.hero-shadow {
@@ -156,7 +156,7 @@ section {
 		height: 30rem;
 		background-size: cover;
 		background-position: center;
-		background-image: url(/dist/img/girl-big.jpg);
+		background-image: url('dist/img/girl-big.jpg');
 		z-index: 0;
 
 		.hero-shadow {
@@ -204,7 +204,7 @@ section {
 			width: 100%;
 			background-size: cover;
 			background-position: center;
-			background-image: url(/dist/img/girl-small.jpg);
+			background-image: url('dist/img/girl-small.jpg');
 			z-index: 0;
 
 			.hero-shadow {
@@ -300,7 +300,7 @@ section {
 		}
 
 		.hero-img {
-			background-image: url(/dist/img/jungle-small.jpg);
+			background-image: url('dist/img/jungle-small.jpg');
 		}
 	}
 
