@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forest</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./dist/css/styles.min.css" />
+		<script
+			src="https://kit.fontawesome.com/5293de18c5.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<!-- @include 'nav.kit' -->
+		<div class="contact-container">
+			<h1>KONTAKT</h1>
+			<div class="contact-form">
+				<label for="name">Twoje imię</label>
+				<input type="text">
+				<label for="email">Twój email</label>
+				<input type="email" >
+				<label for="msg">Wiadomość</label>
+				<textarea cols="30" rows="10"></textarea>
+				<input class="choose-btn-send" type="submit" value="Wyślij">
+			</div>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8980500889793!2d19.890269277054383!3d50.08819561338017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sMcDonald&#39;s!5e0!3m2!1sen!2spl!4v1703439060937!5m2!1sen!2spl"
+				width="600"
+				height="450"
+				style="border: 0"
+				allowfullscreen=""
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+			></iframe>
+		</div>
+		<section class="contact">
+			<a href="#" class="nav-branding"
+				><i class="fa-solid fa-tree"></i>Forest</a
+			>
+
+			<div class="about-us-contact">
+				<p>O nas</p>
+				<div class="line"></div>
+				<a href="">Historia</a>
+				<a href="">Parki</a>
+				<a href="">Opinie</a>
+			</div>
+			<div class="our-company-contact">
+				<p>Nasza firma</p>
+				<div class="line"></div>
+				<a href="">Praca</a>
+				<a href="">Kadry</a>
+				<a href="">Zarząd</a>
+			</div>
+			<div class="documents-contact">
+				<p>Dokumenty</p>
+				<div class="line"></div>
+				<a href="">Wnioski</a>
+				<a href="">Rezerwacje</a>
+				<a href="">Do pobrania</a>
+			</div>
+		</section>
+		<!-- @include 'footer.kit' -->
+
+		<script src="/dist/js/main.min.js"></script>
+	</body>
+</html>
