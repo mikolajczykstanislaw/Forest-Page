@@ -24,27 +24,32 @@
 	</head>
 	<body>
 		<!-- @include 'nav.kit' -->
-		<div class="contact-container">
-			<h1>KONTAKT</h1>
-			<div class="contact-form">
-				<label for="name">Twoje imię</label>
-				<input type="text">
-				<label for="email">Twój email</label>
-				<input type="email" >
-				<label for="msg">Wiadomość</label>
-				<textarea cols="30" rows="10"></textarea>
-				<input class="choose-btn-send" type="submit" value="Wyślij">
+
+		<form action="/mail.php" method="post" class="contact-form">
+			<div class="contact-container">
+				<h1>KONTAKT</h1>
+				<div class="contact-form">
+					<label for="name">Imię:</label>
+					<input type="text" id="name" name="name" required />
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required />
+					<label for="msg">Wiadomość:</label>
+					<textarea cols="30" rows="10" name="msg" id="msg" required></textarea>
+					<button class="choose-btn-send" type="submit">Wyślij</button>
+				</div>
+
+				<p class="msg-status"></p>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8980500889793!2d19.890269277054383!3d50.08819561338017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sMcDonald&#39;s!5e0!3m2!1sen!2spl!4v1703439060937!5m2!1sen!2spl"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
 			</div>
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8980500889793!2d19.890269277054383!3d50.08819561338017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sMcDonald&#39;s!5e0!3m2!1sen!2spl!4v1703439060937!5m2!1sen!2spl"
-				width="600"
-				height="450"
-				style="border: 0"
-				allowfullscreen=""
-				loading="lazy"
-				referrerpolicy="no-referrer-when-downgrade"
-			></iframe>
-		</div>
+		</form>
 		<section class="contact">
 			<a href="#" class="nav-branding"
 				><i class="fa-solid fa-tree"></i>Forest</a
@@ -72,6 +77,7 @@
 				<a href="">Do pobrania</a>
 			</div>
 		</section>
+
 		<!-- @include 'footer.kit' -->
 
 		<script src="dist/js/main.min.js"></script>
