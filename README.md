@@ -16,4 +16,4 @@
 
 ## 📸 Live Demo
 
-![Forest-Page Full View](link_do_obrazka_full_page.png)
+![Forest-Page Full View](./src/img/screen-forest-readme.png)
