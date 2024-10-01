@@ -1,6 +1,6 @@
 # 🌲 Forest-Page
 
-**Forest-Page** is a beautifully designed website dedicated to showcasing artistic representations of forests and nature. The site features a variety of artworks, including photography, illustrations, and digital art, highlighting the beauty and diversity of forest ecosystems. This project was developed as part of a course by **Mateusz Maja** at **MMC School**.
+**Forest-Page** is a beautifully designed website dedicated to showcasing artistic representations of forests and nature. The site features a variety of artworks, including photography, illustrations, and digital art, highlighting the beauty and diversity of forest ecosystems. This project was developed as part of a course by **Mateusz Maj** at **MMC School**.
 
 ## 🎨 Project Overview
 
